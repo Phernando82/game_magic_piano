@@ -26,12 +26,12 @@ while keyboard.is_pressed('1') == False:
     if pyautogui.pixelMatchesColor(501,396, (0,0,0)):
         click(501,396)
         # sleep(0.01)
-    if pyautogui.pixelMatchesColor(596,386, (0,0,0), tolerance=10):
+    if pyautogui.pixelMatchesColor(596,386, (0,0,0)):
         click(596,386)
         # sleep(0.01)
-    if pyautogui.pixelMatchesColor(680,393, (0,0,0), tolerance=10):
+    if pyautogui.pixelMatchesColor(680,393, (0,0,0)):
         click(680,393)
         # sleep(0.01)
-    if pyautogui.pixelMatchesColor(773,390, (0,0,0), tolerance=10):
+    if pyautogui.pixelMatchesColor(773,390, (0,0,0)):
         click(773,390)
         # sleep(0.01)
